@@ -1,0 +1,178 @@
+@media only screen and (max-width: 1024px) {
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col img {
+    width: 50vw;
+    margin-left: 160px;
+  }
+
+  .col h4 {
+    text-align: center;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  .nav-bar {
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+    height: 78px;
+  }
+
+  .nav-bar.open {
+    height: 478px;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+  }
+
+  .line {
+    width: 33px;
+    background-color: chartreuse;
+    height: 4px;
+    margin: 5px 3px;
+    border-radius: 5px;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .nav-ul.fade {
+    display: flex;
+  }
+  .col img {
+    width: 70vw;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .col img {
+    width: 60vw;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .main h1 {
+    font-size: 25px;
+    width: 90vw;
+    margin-left: -30px;
+  }
+
+  .main p {
+    font-size: 20px;
+  }
+
+  .col img {
+    width: 58vw;
+    margin-left: 0px;
+  }
+
+  .col-img h4 {
+    font-size: 20px;
+    width: 55vw;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .main h1 {
+    width: 90vw;
+    margin-left: -40px;
+  }
+
+  .main p {
+    width: 80vw;
+    margin-left: -20px;
+  }
+
+  .col img {
+    width: 60vw;
+    margin-left: -10px;
+  }
+
+  .col-img h4 {
+    font-size: 20px;
+    width: 55vw;
+    margin-left: -15px;
+    text-align: center;
+  }
+
+  .col img {
+    width: 65vw;
+    margin-left: -30px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .main h1 {
+    margin-left: 5px;
+    width: 50vw;
+  }
+
+  .fab {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .main h1 {
+    font-size: 20px;
+  }
+
+  .main p {
+    font-size: 18px;
+  }
+
+  .col-img h4 {
+    font-size: 16px;
+  }
+
+  .col {
+    margin-left: -10px;
+  }
+
+  .footer-txt {
+    font-size: 12px;
+  }
+
+  .contacts {
+    width: 100vw;
+  }
+  .contacts i {
+    font-size: 12px;
+    /* text-align: center; */
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .main h1 {
+    font-size: 20px;
+    width: 70vw;
+    margin-left: -10px;
+  }
+  .main p {
+    font-size: 15px;
+    margin-left: -30px;
+  }
+  .col-img {
+    margin-left: 15px;
+  }
+
+  .col-img h4 {
+    font-size: 15px;
+  }
+}

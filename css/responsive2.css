@@ -1,0 +1,183 @@
+@media only screen and (max-width: 994px) {
+  .nav-bar {
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+    height: 78px;
+  }
+
+  .nav-bar.open {
+    height: 478px;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+  }
+
+  .line {
+    width: 33px;
+    background-color: chartreuse;
+    height: 4px;
+    margin: 5px 3px;
+    border-radius: 5px;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .nav-ul.fade {
+    display: flex;
+  }
+
+  .info {
+    margin: 0px 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info-form {
+    margin: 50px 0px 50px 163px;
+  }
+
+  button {
+    width: 10vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-info-form {
+    margin: 50px 0px 50px 50px;
+  }
+  label {
+    margin: 20px -35px;
+    width: 97vw;
+  }
+  button {
+    width: 20vw;
+  }
+
+  #name {
+    margin: 0px 80px;
+  }
+
+  #email {
+    margin: 0px 85px;
+  }
+
+  #phone {
+    margin: 0px 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-info-form {
+    margin: 50px 0px 50px 40px;
+  }
+  .info span {
+    margin-left: 0px;
+  }
+  #name {
+    margin: 0px 61px;
+  }
+
+  #email {
+    margin: 0px 63px;
+  }
+
+  #phone {
+    margin: 0px 2px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #name {
+    margin: 0px 51px;
+  }
+
+  #email {
+    margin: 0px 55px;
+  }
+
+  #phone {
+    margin: 0px 2px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  #name {
+    margin: 0px 43px;
+  }
+
+  #email {
+    margin: 0px 47px;
+  }
+
+  #phone {
+    margin: 0px 2px;
+  }
+
+  button {
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .footer-txt {
+    font-size: 10.5px;
+  }
+  .contacts i {
+    font-size: 10.5px;
+  }
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+  .info {
+    margin: 0px 0px -65px 0px;
+  }
+
+  #name {
+    margin: 0px 15px;
+  }
+
+  #email {
+    margin: 0px 20px;
+  }
+
+  #phone {
+    margin: 0px 1px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  #name {
+    margin: 0px 23px;
+    width: 70vw;
+    font-size: 10px;
+  }
+
+  #email {
+    margin: 0px 25px;
+    width: 70vw;
+    font-size: 10px;
+  }
+
+  #phone {
+    margin: 0px 25px;
+    width: 70vw;
+    font-size: 10px;
+  }
+  button {
+    margin-left: 40px;
+  }
+  .contacts i {
+    padding: 0px 10px;
+  }
+}

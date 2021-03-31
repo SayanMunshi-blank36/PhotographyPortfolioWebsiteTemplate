@@ -1,0 +1,398 @@
+@media only screen and (max-width: 1210px) {
+  .portfolio img {
+    width: 40vw;
+  }
+  .filter-img img {
+    width: 26vw;
+  }
+  .awards-img img {
+    width: 26vw;
+  }
+  .gallery img {
+    width: 20vw;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  .portfolio img {
+    width: 77vw;
+  }
+  .filter-img img {
+    width: 45vw;
+  }
+  .awards-img img {
+    width: 80vw;
+  }
+  .gallery img {
+    width: 100vw;
+  }
+  .nav-bar {
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+    height: 78px;
+  }
+
+  .nav-bar.open {
+    height: 478px;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+  }
+
+  .line {
+    width: 33px;
+    background-color: chartreuse;
+    height: 4px;
+    margin: 5px 3px;
+    border-radius: 5px;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .nav-ul.fade {
+    display: flex;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .portfolio h2 {
+    text-align: center;
+  }
+
+  .photos-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photos-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .awards {
+    text-align: center;
+  }
+
+  .awards-img {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+  }
+
+  .gallery-heading {
+    text-align: center;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 90px;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3 {
+    justify-content: center;
+  }
+
+  .filter-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+  }
+
+  .awards-img-1,
+  .awards-img-2,
+  .awards-img-3 {
+    margin-left: -100px;
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .filter-img img {
+    width: 63vw;
+  }
+  body {
+    width: 98%;
+  }
+
+  .nav-bar {
+    width: 102%;
+  }
+
+  .intro {
+    width: 102%;
+  }
+
+  .intro p {
+    font-size: 30px;
+    align-items: left;
+    text-align: left;
+    width: 100%;
+  }
+
+  .portfolio h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+
+  .portfolio h4,
+  .view-more {
+    font-size: 16px;
+    text-align: left;
+    text-align: justify;
+  }
+
+  .portfolio {
+    margin-left: -40px;
+    font-size: 15px;
+    width: 105%;
+  }
+
+  .portfolio p {
+    text-align: center;
+    padding: 0px 10px 0px 80px;
+  }
+
+  .portfolio img {
+    width: 130%;
+  }
+
+  .experience {
+    width: 80%;
+    margin: 0px 40px 0px 60px;
+  }
+
+  .filter-img {
+    margin: 100px 75px;
+  }
+
+  .awards {
+    margin: auto 5px;
+  }
+
+  .awards .view-more {
+    text-align: center;
+  }
+
+  footer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px 20px 55px;
+  }
+  .col-1,
+  .col-2,
+  .col-3 {
+    justify-content: center;
+  }
+
+  .filter-img {
+    padding-left: 25px;
+  }
+
+  .awards-img-1,
+  .awards-img-2,
+  .awards-img-3 {
+    margin-left: -55px;
+    width: 100vw;
+  }
+  .photos-1 {
+    justify-content: center;
+    padding-right: 25px;
+  }
+
+  .photos-2 {
+    justify-content: center;
+    padding-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .filter-img img {
+    width: 90vw;
+  }
+  .photos-1 {
+    padding-right: 0px;
+  }
+  .photos-2 {
+    padding-right: 0px;
+  }
+  .experience {
+    margin: 0px 40px;
+  }
+  .filter-img {
+    margin: 100px 15px 100px -3px;
+  }
+  footer {
+    margin-left: 47px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .filter-img img {
+    width: 90vw;
+  }
+  .filter-img {
+    padding-left: 0px;
+    padding-right: 25px;
+    margin-left: 15px;
+  }
+
+  footer {
+    margin-left: 37px;
+  }
+
+  .footer-txt {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  body {
+    width: 97%;
+  }
+
+  .intro p {
+    width: 100%;
+    margin-left: -30px;
+    font-size: 22px;
+  }
+
+  .btn {
+    width: 50%;
+    font-size: 10px;
+    margin-left: 60px;
+  }
+
+  .portfolio h2 {
+    margin-left: 50px;
+  }
+
+  .portfolio p {
+    text-align: center;
+    padding: 0px 10px 0px 80px;
+  }
+
+  .portfolio img {
+    width: 165%;
+  }
+
+  .experience {
+    margin: 0px 30px;
+  }
+
+  .experience h2 {
+    font-size: 25px;
+  }
+
+  .filter-img {
+    width: 40%;
+  }
+
+  .gallery {
+    margin-left: 20px;
+  }
+  .gallery img {
+    width: 140%;
+  }
+
+  .btn-last {
+    font-size: 10px;
+    margin-left: 5px;
+    width: 100%;
+  }
+
+  .filter-img {
+    padding-left: 0px;
+    margin-right: 5px;
+  }
+
+  .filter-img img {
+    width: 90vw;
+  }
+
+  .caption {
+    width: 90vw;
+  }
+
+  .caption-txt {
+    width: 90vw;
+  }
+
+  .awards-img-1,
+  .awards-img-2,
+  .awards-img-3 {
+    margin-left: -60px;
+  }
+
+  .awards-img img {
+    width: 90vw;
+  }
+
+  footer {
+    margin-left: 33px;
+  }
+
+  .footer-txt {
+    font-size: 10px;
+  }
+
+  .fab {
+    font-size: 10px;
+    padding: 0px 5px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .read_more {
+    padding: 10px 0px;
+    margin-left: 100px;
+  }
+
+  .portfolio h2 {
+    margin-left: 40px;
+    font-size: 18px;
+    width: 100vw;
+    padding: 30px 0px;
+  }
+
+  .portfolio p {
+    text-align: center;
+    padding: 0px 10px 0px 90px;
+  }
+
+  .portfolio img {
+    width: 63vw;
+  }
+
+  .gallery-heading {
+    font-size: 25px;
+    width: 80vw;
+    margin-left: 25px;
+  }
+
+  .gallery {
+    margin-left: 100px;
+  }
+  .gallery img {
+    width: 80vw;
+  }
+}

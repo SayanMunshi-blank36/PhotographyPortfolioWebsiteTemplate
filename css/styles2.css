@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&family=Pangolin&family=Recursive:wght@300;500&family=Syne+Mono&display=swap");
+/* ? font-family: 'Montserrat', sans-serif;
+? font-family: 'Pangolin', cursive;
+? font-family: 'Recursive', sans-serif;
+? font-family: 'Syne Mono', monospace;*/
+
+html {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101010;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+  background-color: #171819;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  padding: 15px 0px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Syne Mono", monospace;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.logo a {
+  text-decoration: none;
+  color: orangered;
+  transition: all 0.5s ease-in;
+}
+
+.logo a:hover {
+  color: palegreen;
+  transform: translatex(20px);
+}
+
+.nav-ul {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-ul li {
+  list-style: none;
+  padding: 15px 30px;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: orangered;
+  font-family: "montserrat";
+  font-size: 20px;
+  /* transition: all 0.1s ease-in; */
+}
+
+.nav-ul li a:hover {
+  font-weight: bold;
+  color: rgb(0, 132, 255);
+  cursor: pointer;
+}
+
+ul li a.active {
+  background-color: chartreuse;
+  color: orangered;
+  padding: 15px 10px;
+  margin: 0px 0px;
+}
+
+.contact-form {
+  font-family: "Montserrat", sans-serif;
+  color: chartreuse;
+  text-align: center;
+  font-size: 20px;
+  margin: 30px 0px;
+}
+
+.contact-info p {
+  margin: 30px 0px;
+  font-family: "Pangolin", cursive;
+}
+
+.info {
+  text-align: left;
+  margin: 20px 400px;
+  width: 50%;
+}
+
+.info i {
+  color: chartreuse;
+}
+
+.bold {
+  font-weight: bold;
+  color: orangered;
+}
+
+.contact-info-form {
+  margin: 50px 160px;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 20px 0px;
+}
+
+input {
+  width: 50%;
+  padding: 5px 3px;
+  font-family: "recursive";
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #f1f1f1;
+  color: chartreuse;
+}
+
+#name {
+  margin: 0px 100px;
+}
+
+#email {
+  margin: 0px 104px;
+}
+
+#phone {
+  margin: 0px 44px;
+}
+
+button {
+  font-family: "montserrat";
+  font-weight: bold;
+  width: 10vw;
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: orangered;
+  border: none;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: palegreen;
+}
+
+footer {
+  margin: auto 0px 20px 0px;
+}
+
+.footer-txt {
+  text-align: center;
+  font-size: 16px;
+  font-family: "montserrat";
+  font-weight: bold;
+  color: orangered;
+}
+
+.footer-txt a {
+  color: orangered;
+  text-decoration: none;
+}
+
+.contacts {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.fab {
+  padding: 0px 15px;
+  font-size: 18px;
+  color: orangered;
+}

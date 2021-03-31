@@ -1,0 +1,127 @@
+@media only screen and (max-width: 1054px) {
+  .gallery2 h1 {
+    margin-top: 40px;
+    font-size: 50px;
+  }
+  .main-gallery {
+    margin-top: 200px;
+  }
+
+  .fas {
+    margin-top: 130px;
+  }
+
+  .slide {
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  .gallery2 h1 {
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  .main-gallery {
+    margin-top: 100px;
+  }
+
+  .fas {
+    margin-top: 100px;
+  }
+
+  .fa-caret-left {
+    padding: 130px 10px;
+  }
+  .fa-caret-right {
+    padding: 130px 10px;
+  }
+
+  .slide {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-gallery {
+    margin-top: 70px;
+  }
+
+  .fas {
+    margin-top: 100px;
+  }
+
+  .fa-caret-left {
+    padding: 70px 10px;
+  }
+  .fa-caret-right {
+    padding: 70px 10px;
+  }
+
+  .slide {
+    width: 85vw;
+  }
+
+  footer {
+    text-align: center;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 504px) {
+  .slide {
+    width: 80vw;
+  }
+
+  footer {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .gallery2 h1 {
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  .main-gallery {
+    margin-top: 0px;
+  }
+
+  .fas {
+    margin-top: 60px;
+  }
+
+  .slide {
+    width: 78.5vw;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .fas {
+    margin-top: 40px;
+  }
+
+  .slide {
+    width: 75vw;
+  }
+
+  footer {
+    margin-left: 33px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .gallery2 h1 {
+    font-size: 30px;
+  }
+  .fas {
+    margin-top: 60px;
+  }
+
+  .slide {
+    width: 70vw;
+  }
+
+  footer {
+    margin-left: 30px;
+  }
+}

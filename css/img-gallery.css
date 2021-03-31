@@ -1,0 +1,301 @@
+.gallery2 h1 {
+  font-family: "montserrat";
+  color: chartreuse;
+  font-size: 35px;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.main-gallery {
+  display: flex;
+}
+
+.slide-1 {
+  background: url(../images/gallery-img-1.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-2 {
+  background: url(../images/gallery-img-2.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-3 {
+  background: url(../images/gallery-img-3.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-4 {
+  background: url(../images/gallery-img-4.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-5 {
+  background: url(../images/gallery-img-5.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-6 {
+  background: url(../images/gallery-img-6.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-7 {
+  background: url(../images/gallery-img-7.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-8 {
+  background: url(../images/gallery-img-8.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-9 {
+  background: url(../images/gallery-img-9.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-10 {
+  background: url(../images/port-img-1.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-11 {
+  background: url(../images/port-img-2.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-12 {
+  background: url(../images/port-img-3.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-13 {
+  background: url(../images/port-img-4.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-14 {
+  background: url(../images/filter-img-1a.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-15 {
+  background: url(../images/filter-img-2a.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-16 {
+  background: url(../images/filter-img-3a.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-17 {
+  background: url(../images/img1.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-18 {
+  background: url(../images/img2.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-19 {
+  background: url(../images/img3.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-20 {
+  background: url(../images/img4.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-21 {
+  background: url(../images/img5.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-22 {
+  background: url(../images/creative-img-1.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-23 {
+  background: url(../images/creative-img-2.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-24 {
+  background: url(../images/creative-img-3.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-25 {
+  background: url(../images/nature-img-1.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-26 {
+  background: url(../images/nature-img-2.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-27 {
+  background: url(../images/nature-img-3.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-28 {
+  background: url(../images/portrait-img-1.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-29 {
+  background: url(../images/portrait-img-2.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+.slide-30 {
+  background: url(../images/portrait-img-3.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 88vw;
+  height: 50vh;
+  margin: 30px 0px 70px 0px;
+}
+
+.fas:hover {
+  color: rgb(99, 173, 238);
+}
+
+.fa-caret-left {
+  color: white;
+  padding-left: 50px;
+  padding-top: 130px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.fa-caret-right {
+  color: white;
+  padding-right: 50px;
+  padding-top: 130px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
